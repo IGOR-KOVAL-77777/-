@@ -1,0 +1,31 @@
+print('1st program')
+print(9**0.5*5)
+print('2nd program')
+print(9.99>9.98 and 1000!=1000.1)
+print('3rd program')
+a=str(1234)
+b=str(5678)
+print(int(a[1:3])+int(b[1:3]))
+#или так
+a=1234
+b=5678
+print(a%1000//10+b%1000//10)
+print('4th program')
+# почему не получается нормальное целое из дроби умноженной на 100
+c=13.42
+cn=int(c)
+ck=(c-cn)*100
+d=42.13
+dn=int(d)
+dk=(d-dn)*100
+print(cn, dk, ck, dn)
+##############################
+c=str(13.42)
+##print(c[3:])
+cn=c[0:2]
+ck=c[3:]
+d=str(42.13)
+dn=d[0:2]
+dk=d[3:]
+print(cn==dk or ck==dn)
+######
